@@ -3,7 +3,9 @@
 		return {
 			restrict: 'E',
 			templateUrl: 'html/directives/resume-job-summary.html',
-			controller: 'ResumeJobSummaryCtrl'
+			scope: {
+				job: '='
+			}
 		};
 	});
 }(portfolioApp));

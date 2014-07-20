@@ -2,7 +2,7 @@
 	app.directive('siteHeader', function(){
 		return {
 			restrict: 'E',
-			templateUrl: 'html/partials/site-header.html'
+			templateUrl: 'html/directives/site-header.html'
 		};
 	});
 }(portfolioApp));

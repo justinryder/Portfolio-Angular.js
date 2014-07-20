@@ -1,0 +1,10 @@
+<section>
+	<h1>{{job.jobTitle}}</h1>
+	<h2>{{job.startDate}} - {{job.endDate || 'Present'}}</h2>
+	<h3>Responsibilites</h3>
+	<ul>
+		<li ng-repeat="responsibility in job.responsibilities">
+			{{responsibility}}
+		</li>
+	</ul>
+</section>
