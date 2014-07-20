@@ -1,0 +1,33 @@
+<h1>{{semester.classYear}} - {{semester.season}} {{semester.year}}</h1>
+<ul>
+	<li ng-repeat="class in semester.classes">{{class.courseNumber}} - {{class.courseName}}</li>
+</ul>
+<!--
+{
+	"classYear": "Senior",
+	"season": "Spring",
+	"year": 2013,
+	"classes": [
+		{
+			"courseNumber": "CSI 335",
+			"courseName": "Software Systems Analysis & Design"
+		},
+		{
+			"courseNumber": "CSI 385",
+			"courseName": "Operating Systems Architecture"
+		},
+		{
+			"courseNumber": "EGD 420",
+			"courseName": "Senior Production"
+		},
+		{
+			"courseNumber": "EGP 420",
+			"courseName": "Console Programming"
+		},
+		{
+			"courseNumber": "EGP 425",
+			"courseName": "Game Physics"
+		}
+	]
+}
+-->
