@@ -13,7 +13,8 @@
 	<h1>Credits</h1>
 	<ul>
 		<li ng-repeat="credit in project.credits">
-			<a ng-href="{{credit.url || '#/'}}">{{credit.name}}</a> - {{credit.role}}
+			<link-or-span url="credit.url">{{credit.name}}</link-or-span>
+			<span> - {{credit.role}}</span>
 		</li>
 	</ul>
 </section>
