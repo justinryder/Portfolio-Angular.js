@@ -5,6 +5,7 @@ var portfolioApp = (function(angular){
 		$routeProvider
 			.when('/home', {controller:'HomeController', templateUrl:'html/home.html'})
 			.when('/projects', {controller:'ProjectsController', templateUrl:'html/projects.html'})
+			.when('/projects/:project', {controller:'ProjectController', templateUrl:'html/project.html'})
 			.when('/resume', {controller:'ResumeController', templateUrl:'html/resume.html'})
 			.when('/education', {controller:'EducationController', templateUrl:'html/education.html'})
 			.when('/about', {controller:'AboutController', templateUrl:'html/about.html'})

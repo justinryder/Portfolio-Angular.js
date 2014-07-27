@@ -1,5 +1,5 @@
 (function(app){
-	app.controller('ProjectsController', function($scope){
-		$scope.projects = "Projects";
-	});
+	app.controller('ProjectsController', ['$scope', '$log', '$http', function($scope, $log, $http){
+		
+	}]);
 }(portfolioApp));
