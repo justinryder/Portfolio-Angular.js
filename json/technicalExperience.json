@@ -1,0 +1,55 @@
+{
+	"programming": {
+		"advanced": [
+			"C#",
+			"C++",
+			".NET",
+			"XNA",
+			"Unity",
+			"ASP.NET MVC"
+		],
+		"basic": [
+			"SQL",
+			"HTML",
+			"CSS",
+			"SASS",
+			"JavaScript",
+			"Java",
+			"HLSL",
+			"GLSL",
+			"C",
+			"Python",
+			"Scilab",
+			"Allegro",
+			"Action Script 3.0"
+		]
+	},
+	"software": {
+		"advanced": [
+			"Visual Studio",
+			"Microsoft Office",
+			"Adobe CS",
+			"Unity Editor"
+		],
+		"basic": [
+			"Microsoft Visio",
+			"MonoDevelop",
+			"SQLyog",
+			"Open Office",
+			"Eclipse",
+			"Autodesk Maya",
+			"Audacity"
+		]
+	},
+	"operatingSystems": {
+		"advanced": [
+			"Windows",
+			"Android"
+		],
+		"basic": [
+			"Macintosh",
+			"iOS",
+			"Ubuntu"
+		]
+	}
+}

@@ -1,14 +1,14 @@
 (function(app){
-	app.controller('MenuController', function ($scope, $http) {
+	app.controller('MenuController', ['$scope', '$log', '$http', function ($scope, $log, $http) {
 		$scope.title = 'Menu';
 
 		$http.get('json/menuLinks.json')
 			.success(function(data){
-				console.log(data);
 				$scope.links = data;
 			})
 			.error(function(data){
-				$scope.links = [{name:'Links failed to load.', url:'#/'}];
+				$log.error('Failed to load menu links.');
+				$log.log(data);
 			});
-	});	
+	}]);
 }(portfolioApp));
