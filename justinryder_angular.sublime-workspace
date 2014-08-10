@@ -1,0 +1,235 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"scr",
+				"scriptsToLoad"
+			],
+			[
+				"sr",
+				"scriptSrc"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"ro",
+				"rotationSpeed"
+			],
+			[
+				"re",
+				"renderables"
+			],
+			[
+				"Render",
+				"Renderable"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Git/VideoPopOut/manifest.json",
+		"/E/Git/VideoPopOut/src/content-loader.js",
+		"/E/Git/VideoPopOut/src/video-pop-out.js",
+		"/E/Git/VideoPopOut/lib/jquery.popupwindow.js",
+		"/E/Git/VideoPopOut/lib/jquery.js",
+		"/E/Git/VideoPopOut/video-pop-out.js",
+		"/E/Git/VideoPopOut/content-loader.js",
+		"/E/Git/VideoPopOut/icon.png",
+		"/E/Git/VideoPopOut/jquery.js",
+		"/E/Git/VideoPopOut/popup.html",
+		"/E/Git/VideoPopOut/popup.js",
+		"/E/Website/justinryder_angular/html/project.html",
+		"/E/Website/justinryder_angular/js/directives/linkOrSpan.js",
+		"/E/Website/justinryder_angular/js/controllers/ProjectController.js",
+		"/E/Website/justinryder_angular/json/projects/armadyne.json",
+		"/E/Website/justinryder_angular/js/portfolioApp.js",
+		"/E/Website/justinryder_angular/index.html",
+		"/E/Website/justinryder_angular/html/directives/link-or-span.html",
+		"/E/Website/justinryder_angular/js/controllers/ProjectsController.js",
+		"/E/Website/justinryder_angular/html/projects.html",
+		"/E/Website/justinryder_angular/html/about.html",
+		"/E/Website/justinryder_angular/js/controllers/AboutController.js",
+		"/E/Website/justinryder_angular/json/technicalExperience.json",
+		"/E/Website/justinryder_angular/html/directives/experience-summary.html",
+		"/E/Website/justinryder_angular/js/directives/experienceSummary.js",
+		"/E/Website/justinryder_angular/js/controllers/MenuController.js",
+		"/E/Website/justinryder_angular/json/contactLinks.json",
+		"/E/Website/justinryder_angular/html/directives/semester-class-summary.html",
+		"/E/Website/justinryder_angular/html/education.html",
+		"/E/Website/justinryder_angular/js/directives/semesterClassSummary.js",
+		"/E/Website/justinryder_angular/js/controllers/EducationController.js",
+		"/E/Website/justinryder_angular/json/classesBySemester.json",
+		"/E/Website/justinryder_angular/json/classes.json",
+		"/E/Website/justinryder_angular/html/resume.html",
+		"/E/Website/justinryder_angular/js/controllers/ResumeController.js",
+		"/E/Website/justinryder_angular/json/resumeJobSummaries.json",
+		"/E/Website/justinryder_angular/js/directives/siteHeader.js",
+		"/E/Website/justinryder_angular/html/directives/resume-job-summary.html",
+		"/E/Website/justinryder_angular/html/partials/resume-job-summary.html",
+		"/E/Website/justinryder_angular/js/directives/resumeJobSummary.js",
+		"/E/Website/justinryder_angular/html/partials/site-header.html",
+		"/E/Website/justinryder_angular/html/header.html",
+		"/E/Website/justinryder_angular/js/controllers/resume.js",
+		"/E/Website/justinryder_angular/js/controllers/HomeController.js",
+		"/E/Website/justinryder_angular/js/controllers/HeaderController.js",
+		"/E/Website/justinryder_angular/json/menuLinks.json",
+		"/E/Website/justinryder_angular/js/controllers/contact.js",
+		"/E/Website/justinryder_angular/js/controllers/ResumeJobController.js",
+		"/E/Website/justinryder_angular/js/directives/site-header.js",
+		"/E/Website/justinryder_angular/js/controllers/projects.js",
+		"/E/Website/justinryder_angular/js/controllers/menu.js",
+		"/E/Website/justinryder_angular/js/controllers/home.js",
+		"/E/Website/justinryder_angular/js/controllers/header.js",
+		"/E/Website/justinryder_angular/js/controllers/education.js",
+		"/E/Website/justinryder_angular/js/controllers/about.js",
+		"/E/Website/justinryder_angular/js/directives/resume-job-summary.js",
+		"/E/Website/justinryder_angular/js/directives/resume-job-summary",
+		"/E/Website/justinryder_angular/js/app.js",
+		"/E/Git/GAngular/index.html",
+		"/E/Git/GAngular/js/routes.js",
+		"/E/Git/GAngular/js/controllers.js",
+		"/E/Git/GAngular/js/directives.js",
+		"/E/Git/GAngular/js/filters.js",
+		"/E/Git/GAngular/js/services.js",
+		"/E/Git/GAngular/lib/angular/angular.js",
+		"/E/Git/GAngular/css/gangular.css",
+		"/E/Git/GAngular/partials/game.html",
+		"/E/Git/GAngular/css/app.css",
+		"/E/Git/GAngular/partials/partial2.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"json/resumeJobSummaries.json",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}",
+			"'\">\n",
+			"'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 167.0,
+	"status_bar_visible": true
+}

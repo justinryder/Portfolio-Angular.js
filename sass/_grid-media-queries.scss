@@ -1,0 +1,226 @@
+$xs-upper-bound: 320px;
+$sm-lower-bound: $xs-upper-bound;
+$sm-upper-bound: 640px;
+$md-lower-bound: $sm-upper-bound;
+$md-upper-bound: 960px;
+$lg-lower-bound: $md-upper-bound;
+$lg-upper-bound: 1280px;
+$xl-lower-bound: $lg-upper-bound;
+$xl-upper-bound: 1600px;
+$xxl-lower-bound: $xl-upper-bound;
+
+// (xs) Extra Small
+@media (max-width: $xs-upper-bound) {
+	// X/1
+	.col-xs-1-1 { width: $width-1-1; }
+
+	// X/2
+	.col-xs-1-2 { width: $width-1-2; }
+	.col-xs-2-2 { width: $width-2-2; }
+
+	// X/3
+	.col-xs-1-3 { width: $width-1-3; }
+	.col-xs-2-3 { width: $width-2-3; }
+	.col-xs-3-3 { width: $width-3-3; }
+
+	// X/4
+	.col-xs-1-4 { width: $width-1-4; }
+	.col-xs-2-4 { width: $width-2-4; }
+	.col-xs-3-4 { width: $width-3-4; }
+	.col-xs-4-4 { width: $width-4-4; }
+
+	// X/5
+	.col-xs-1-5 { width: $width-1-5; }
+	.col-xs-2-5 { width: $width-2-5; }
+	.col-xs-3-5 { width: $width-3-5; }
+	.col-xs-4-5 { width: $width-4-5; }
+	.col-xs-5-5 { width: $width-5-5; }
+
+	// X/6
+	.col-xs-1-6 { width: $width-1-6; }
+	.col-xs-2-6 { width: $width-2-6; }
+	.col-xs-3-6 { width: $width-3-6; }
+	.col-xs-4-6 { width: $width-4-6; }
+	.col-xs-5-6 { width: $width-5-6; }
+	.col-xs-6-6 { width: $width-6-6; }
+}
+
+// (sm) Small
+@media (min-width: $sm-lower-bound) and (max-width: $sm-upper-bound) {
+	// X/1
+	.col-sm-1-1 { width: $width-1-1; }
+
+	// X/2
+	.col-sm-1-2 { width: $width-1-2; }
+	.col-sm-2-2 { width: $width-2-2; }
+
+	// X/3
+	.col-sm-1-3 { width: $width-1-3; }
+	.col-sm-2-3 { width: $width-2-3; }
+	.col-sm-3-3 { width: $width-3-3; }
+
+	// X/4
+	.col-sm-1-4 { width: $width-1-4; }
+	.col-sm-2-4 { width: $width-2-4; }
+	.col-sm-3-4 { width: $width-3-4; }
+	.col-sm-4-4 { width: $width-4-4; }
+
+	// X/5
+	.col-sm-1-5 { width: $width-1-5; }
+	.col-sm-2-5 { width: $width-2-5; }
+	.col-sm-3-5 { width: $width-3-5; }
+	.col-sm-4-5 { width: $width-4-5; }
+	.col-sm-5-5 { width: $width-5-5; }
+
+	// X/6
+	.col-sm-1-6 { width: $width-1-6; }
+	.col-sm-2-6 { width: $width-2-6; }
+	.col-sm-3-6 { width: $width-3-6; }
+	.col-sm-4-6 { width: $width-4-6; }
+	.col-sm-5-6 { width: $width-5-6; }
+	.col-sm-6-6 { width: $width-6-6; }
+}
+
+// (md) Medium
+@media (min-width: $md-lower-bound) and (max-width: $md-upper-bound) {
+	// X/1
+	.col-md-1-1 { width: $width-1-1; }
+
+	// X/2
+	.col-md-1-2 { width: $width-1-2; }
+	.col-md-2-2 { width: $width-2-2; }
+
+	// X/3
+	.col-md-1-3 { width: $width-1-3; }
+	.col-md-2-3 { width: $width-2-3; }
+	.col-md-3-3 { width: $width-3-3; }
+
+	// X/4
+	.col-md-1-4 { width: $width-1-4; }
+	.col-md-2-4 { width: $width-2-4; }
+	.col-md-3-4 { width: $width-3-4; }
+	.col-md-4-4 { width: $width-4-4; }
+
+	// X/5
+	.col-md-1-5 { width: $width-1-5; }
+	.col-md-2-5 { width: $width-2-5; }
+	.col-md-3-5 { width: $width-3-5; }
+	.col-md-4-5 { width: $width-4-5; }
+	.col-md-5-5 { width: $width-5-5; }
+
+	// X/6
+	.col-md-1-6 { width: $width-1-6; }
+	.col-md-2-6 { width: $width-2-6; }
+	.col-md-3-6 { width: $width-3-6; }
+	.col-md-4-6 { width: $width-4-6; }
+	.col-md-5-6 { width: $width-5-6; }
+	.col-md-6-6 { width: $width-6-6; }
+}
+
+// (lg) Large
+@media (min-width: $lg-lower-bound) and (max-width: $lg-upper-bound) {
+	// X/1
+	.col-lg-1-1 { width: $width-1-1; }
+
+	// X/2
+	.col-lg-1-2 { width: $width-1-2; }
+	.col-lg-2-2 { width: $width-2-2; }
+
+	// X/3
+	.col-lg-1-3 { width: $width-1-3; }
+	.col-lg-2-3 { width: $width-2-3; }
+	.col-lg-3-3 { width: $width-3-3; }
+
+	// X/4
+	.col-lg-1-4 { width: $width-1-4; }
+	.col-lg-2-4 { width: $width-2-4; }
+	.col-lg-3-4 { width: $width-3-4; }
+	.col-lg-4-4 { width: $width-4-4; }
+
+	// X/5
+	.col-lg-1-5 { width: $width-1-5; }
+	.col-lg-2-5 { width: $width-2-5; }
+	.col-lg-3-5 { width: $width-3-5; }
+	.col-lg-4-5 { width: $width-4-5; }
+	.col-lg-5-5 { width: $width-5-5; }
+
+	// X/6
+	.col-lg-1-6 { width: $width-1-6; }
+	.col-lg-2-6 { width: $width-2-6; }
+	.col-lg-3-6 { width: $width-3-6; }
+	.col-lg-4-6 { width: $width-4-6; }
+	.col-lg-5-6 { width: $width-5-6; }
+	.col-lg-6-6 { width: $width-6-6; }
+}
+
+// (xl) Large
+@media (min-width: $xl-lower-bound) and (max-width: $xl-upper-bound) {
+	// X/1
+	.col-xl-1-1 { width: $width-1-1; }
+
+	// X/2
+	.col-xl-1-2 { width: $width-1-2; }
+	.col-xl-2-2 { width: $width-2-2; }
+
+	// X/3
+	.col-xl-1-3 { width: $width-1-3; }
+	.col-xl-2-3 { width: $width-2-3; }
+	.col-xl-3-3 { width: $width-3-3; }
+
+	// X/4
+	.col-xl-1-4 { width: $width-1-4; }
+	.col-xl-2-4 { width: $width-2-4; }
+	.col-xl-3-4 { width: $width-3-4; }
+	.col-xl-4-4 { width: $width-4-4; }
+
+	// X/5
+	.col-xl-1-5 { width: $width-1-5; }
+	.col-xl-2-5 { width: $width-2-5; }
+	.col-xl-3-5 { width: $width-3-5; }
+	.col-xl-4-5 { width: $width-4-5; }
+	.col-xl-5-5 { width: $width-5-5; }
+
+	// X/6
+	.col-xl-1-6 { width: $width-1-6; }
+	.col-xl-2-6 { width: $width-2-6; }
+	.col-xl-3-6 { width: $width-3-6; }
+	.col-xl-4-6 { width: $width-4-6; }
+	.col-xl-5-6 { width: $width-5-6; }
+	.col-xl-6-6 { width: $width-6-6; }
+}
+
+// (xxl) Large
+@media (min-width: $xxl-lower-bound) {
+	// X/1
+	.col-xxl-1-1 { width: $width-1-1; }
+
+	// X/2
+	.col-xxl-1-2 { width: $width-1-2; }
+	.col-xxl-2-2 { width: $width-2-2; }
+
+	// X/3
+	.col-xxl-1-3 { width: $width-1-3; }
+	.col-xxl-2-3 { width: $width-2-3; }
+	.col-xxl-3-3 { width: $width-3-3; }
+
+	// X/4
+	.col-xxl-1-4 { width: $width-1-4; }
+	.col-xxl-2-4 { width: $width-2-4; }
+	.col-xxl-3-4 { width: $width-3-4; }
+	.col-xxl-4-4 { width: $width-4-4; }
+
+	// X/5
+	.col-xxl-1-5 { width: $width-1-5; }
+	.col-xxl-2-5 { width: $width-2-5; }
+	.col-xxl-3-5 { width: $width-3-5; }
+	.col-xxl-4-5 { width: $width-4-5; }
+	.col-xxl-5-5 { width: $width-5-5; }
+
+	// X/6
+	.col-xxl-1-6 { width: $width-1-6; }
+	.col-xxl-2-6 { width: $width-2-6; }
+	.col-xxl-3-6 { width: $width-3-6; }
+	.col-xxl-4-6 { width: $width-4-6; }
+	.col-xxl-5-6 { width: $width-5-6; }
+	.col-xxl-6-6 { width: $width-6-6; }
+}

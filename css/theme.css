@@ -1,28 +1,35 @@
+/* line 1, ../sass/theme.scss */
 body {
-	font: 0.8em/165% "Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
+  font: 0.8em/165% "Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
 }
 
+/* line 5, ../sass/theme.scss */
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
+/* line 9, ../sass/theme.scss */
 header {
-	background-color: black;
-	color: white;
+  background-color: black;
+  color: white;
 }
 
+/* line 14, ../sass/theme.scss */
 header a {
-	color: #1487d4;
+  color: #1487d4;
 }
 
+/* line 18, ../sass/theme.scss */
 header h1 {
-	font-size: 3em;
+  font-size: 3em;
 }
 
+/* line 22, ../sass/theme.scss */
 header h2 {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
-nav{
-	border: 1px solid black;
+/* line 26, ../sass/theme.scss */
+nav {
+  border: 1px solid black;
 }
