@@ -35,6 +35,57 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "html/education.html",
+			"settings":
+			{
+				"buffer_size": 523,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<h1>\n	<span class=\"class-year\">{{semester.classYear}}</span>\n	<span class=\"separator\"> - </span>\n	<span>{{semester.season}} {{semester.year}}</span>\n</h1>\n<ul>\n	<li\n	class=\"course\"\n	ng-repeat=\"class in semester.classes\">\n		<span class=\"course-number\">{{class.courseNumber}}</span>\n		<span class=\"separator\"> - </span>\n		<span class=\"course-name\">{{class.courseName}}</span>\n	</li>\n</ul>",
+			"file": "html/directives/semester-class-summary.html",
+			"file_size": 312,
+			"file_write_time": 130521779642099393,
+			"settings":
+			{
+				"buffer_size": 386,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_grid.scss",
+			"settings":
+			{
+				"buffer_size": 233,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_grid-media-queries.scss",
+			"settings":
+			{
+				"buffer_size": 5638,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/theme.scss",
+			"settings":
+			{
+				"buffer_size": 316,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_grid-columns.scss",
+			"settings":
+			{
+				"buffer_size": 1186,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -60,6 +111,10 @@
 	},
 	"file_history":
 	[
+		"/E/Website/justinryder_angular/sass/layout.scss",
+		"/E/Website/justinryder_angular/sass/_grid-columns.scss",
+		"/E/Website/justinryder_angular/css/layout.css",
+		"/E/Website/justinryder_angular/config.rb",
 		"/E/Git/VideoPopOut/manifest.json",
 		"/E/Git/VideoPopOut/src/content-loader.js",
 		"/E/Git/VideoPopOut/src/video-pop-out.js",
@@ -136,9 +191,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"selection",
 			"json/resumeJobSummaries.json",
 			""
 		]
@@ -148,6 +204,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"}\n",
+			"sm",
 			"}",
 			"'\">\n",
 			"'"
@@ -158,6 +216,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"lg",
 			"\""
 		],
 		"reverse": false,
@@ -169,8 +228,167 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "html/education.html",
+					"settings":
+					{
+						"buffer_size": 523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								523,
+								523
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/directives/semester-class-summary.html",
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/_grid.scss",
+					"settings":
+					{
+						"buffer_size": 233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/_grid-media-queries.scss",
+					"settings":
+					{
+						"buffer_size": 5638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4525,
+								4525
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/theme.scss",
+					"settings":
+					{
+						"buffer_size": 316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sass/_grid-columns.scss",
+					"settings":
+					{
+						"buffer_size": 1186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
