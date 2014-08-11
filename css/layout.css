@@ -108,7 +108,7 @@
   width: 100%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 384px) {
   /* line 19, ../sass/layout/_grid-media-queries.scss */
   .col-xs-1-1,
   .col-xs-1-2:nth-child(2n+1),
@@ -226,7 +226,7 @@
     width: 100%;
   }
 }
-@media (min-width: 320px) and (max-width: 640px) {
+@media (min-width: 384px) and (max-width: 768px) {
   /* line 66, ../sass/layout/_grid-media-queries.scss */
   .col-sm-1-1,
   .col-sm-1-2:nth-child(2n+1),
@@ -344,7 +344,7 @@
     width: 100%;
   }
 }
-@media (min-width: 640px) and (max-width: 960px) {
+@media (min-width: 768px) and (max-width: 1152px) {
   /* line 113, ../sass/layout/_grid-media-queries.scss */
   .col-md-1-1,
   .col-md-1-2:nth-child(2n+1),
@@ -462,7 +462,7 @@
     width: 100%;
   }
 }
-@media (min-width: 960px) and (max-width: 1280px) {
+@media (min-width: 1152px) and (max-width: 1536px) {
   /* line 160, ../sass/layout/_grid-media-queries.scss */
   .col-lg-1-1,
   .col-lg-1-2:nth-child(2n+1),
@@ -580,7 +580,7 @@
     width: 100%;
   }
 }
-@media (min-width: 1280px) and (max-width: 1600px) {
+@media (min-width: 1536px) and (max-width: 1920px) {
   /* line 207, ../sass/layout/_grid-media-queries.scss */
   .col-xl-1-1,
   .col-xl-1-2:nth-child(2n+1),
@@ -698,7 +698,7 @@
     width: 100%;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1920px) {
   /* line 254, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-1-1,
   .col-xxl-1-2:nth-child(2n+1),
