@@ -1,818 +1,817 @@
 /* line 1, ../sass/layout/_grid-columns.scss */
 [class*="col-"] {
   float: left;
-  display: table;
 }
 
-/* line 8, ../sass/layout/_grid-columns.scss */
+/* line 7, ../sass/layout/_grid-columns.scss */
 .col-1-1 {
   width: 100%;
 }
 
-/* line 12, ../sass/layout/_grid-columns.scss */
+/* line 11, ../sass/layout/_grid-columns.scss */
 .col-1-2 {
   width: 50%;
 }
 
-/* line 14, ../sass/layout/_grid-columns.scss */
+/* line 13, ../sass/layout/_grid-columns.scss */
 .col-2-2 {
   width: 100%;
 }
 
-/* line 18, ../sass/layout/_grid-columns.scss */
+/* line 17, ../sass/layout/_grid-columns.scss */
 .col-1-3 {
   width: 33.33%;
 }
 
-/* line 20, ../sass/layout/_grid-columns.scss */
+/* line 19, ../sass/layout/_grid-columns.scss */
 .col-2-3 {
   width: 66.66%;
 }
 
-/* line 22, ../sass/layout/_grid-columns.scss */
+/* line 21, ../sass/layout/_grid-columns.scss */
 .col-3-3 {
   width: 100%;
 }
 
-/* line 26, ../sass/layout/_grid-columns.scss */
+/* line 25, ../sass/layout/_grid-columns.scss */
 .col-1-4 {
   width: 25%;
 }
 
-/* line 28, ../sass/layout/_grid-columns.scss */
+/* line 27, ../sass/layout/_grid-columns.scss */
 .col-2-4 {
   width: 50%;
 }
 
-/* line 30, ../sass/layout/_grid-columns.scss */
+/* line 29, ../sass/layout/_grid-columns.scss */
 .col-3-4 {
   width: 75%;
 }
 
-/* line 32, ../sass/layout/_grid-columns.scss */
+/* line 31, ../sass/layout/_grid-columns.scss */
 .col-4-4 {
   width: 100%;
 }
 
-/* line 36, ../sass/layout/_grid-columns.scss */
+/* line 35, ../sass/layout/_grid-columns.scss */
 .col-1-5 {
   width: 20%;
 }
 
-/* line 38, ../sass/layout/_grid-columns.scss */
+/* line 37, ../sass/layout/_grid-columns.scss */
 .col-2-5 {
   width: 40%;
 }
 
-/* line 40, ../sass/layout/_grid-columns.scss */
+/* line 39, ../sass/layout/_grid-columns.scss */
 .col-3-5 {
   width: 60%;
 }
 
-/* line 42, ../sass/layout/_grid-columns.scss */
+/* line 41, ../sass/layout/_grid-columns.scss */
 .col-4-5 {
   width: 80%;
 }
 
-/* line 44, ../sass/layout/_grid-columns.scss */
+/* line 43, ../sass/layout/_grid-columns.scss */
 .col-5-5 {
   width: 100%;
 }
 
-/* line 48, ../sass/layout/_grid-columns.scss */
+/* line 47, ../sass/layout/_grid-columns.scss */
 .col-1-6 {
   width: 16.66%;
 }
 
-/* line 50, ../sass/layout/_grid-columns.scss */
+/* line 49, ../sass/layout/_grid-columns.scss */
 .col-2-6 {
   width: 33.33%;
 }
 
-/* line 52, ../sass/layout/_grid-columns.scss */
+/* line 51, ../sass/layout/_grid-columns.scss */
 .col-3-6 {
   width: 50%;
 }
 
-/* line 54, ../sass/layout/_grid-columns.scss */
+/* line 53, ../sass/layout/_grid-columns.scss */
 .col-4-6 {
   width: 66.66%;
 }
 
-/* line 56, ../sass/layout/_grid-columns.scss */
+/* line 55, ../sass/layout/_grid-columns.scss */
 .col-5-6 {
   width: 83.33%;
 }
 
-/* line 58, ../sass/layout/_grid-columns.scss */
+/* line 57, ../sass/layout/_grid-columns.scss */
 .col-6-6 {
   width: 100%;
 }
 
 @media (max-width: 384px) {
-  /* line 19, ../sass/layout/_grid-media-queries.scss */
-  .col-xs-1-1,
-  .col-xs-1-2:nth-child(2n+1),
-  .col-xs-1-3:nth-child(3n+1),
-  .col-xs-1-4:nth-child(4n+1),
-  .col-xs-1-5:nth-child(5n+1),
-  .col-xs-1-6:nth-child(6n+1) {
+  /* line 20, ../sass/layout/_grid-media-queries.scss */
+  .grid-fixed-height .col-xs-1-1,
+  .grid-fixed-height .col-xs-1-2:nth-child(2n+1),
+  .grid-fixed-height .col-xs-1-3:nth-child(3n+1),
+  .grid-fixed-height .col-xs-1-4:nth-child(4n+1),
+  .grid-fixed-height .col-xs-1-5:nth-child(5n+1),
+  .grid-fixed-height .col-xs-1-6:nth-child(6n+1) {
     content: '';
     display: table;
     clear: both;
   }
 
-  /* line 26, ../sass/layout/_grid-media-queries.scss */
+  /* line 28, ../sass/layout/_grid-media-queries.scss */
   .col-xs-1-1 {
     width: 100%;
   }
 
-  /* line 29, ../sass/layout/_grid-media-queries.scss */
+  /* line 31, ../sass/layout/_grid-media-queries.scss */
   .col-xs-1-2 {
     width: 50%;
   }
 
-  /* line 30, ../sass/layout/_grid-media-queries.scss */
+  /* line 32, ../sass/layout/_grid-media-queries.scss */
   .col-xs-2-2 {
     width: 100%;
   }
 
-  /* line 33, ../sass/layout/_grid-media-queries.scss */
+  /* line 35, ../sass/layout/_grid-media-queries.scss */
   .col-xs-1-3 {
     width: 33.33%;
   }
 
-  /* line 34, ../sass/layout/_grid-media-queries.scss */
+  /* line 36, ../sass/layout/_grid-media-queries.scss */
   .col-xs-2-3 {
     width: 66.66%;
   }
 
-  /* line 35, ../sass/layout/_grid-media-queries.scss */
+  /* line 37, ../sass/layout/_grid-media-queries.scss */
   .col-xs-3-3 {
     width: 100%;
   }
 
-  /* line 38, ../sass/layout/_grid-media-queries.scss */
+  /* line 40, ../sass/layout/_grid-media-queries.scss */
   .col-xs-1-4 {
     width: 25%;
   }
 
-  /* line 39, ../sass/layout/_grid-media-queries.scss */
+  /* line 41, ../sass/layout/_grid-media-queries.scss */
   .col-xs-2-4 {
     width: 50%;
   }
 
-  /* line 40, ../sass/layout/_grid-media-queries.scss */
+  /* line 42, ../sass/layout/_grid-media-queries.scss */
   .col-xs-3-4 {
     width: 75%;
   }
 
-  /* line 41, ../sass/layout/_grid-media-queries.scss */
+  /* line 43, ../sass/layout/_grid-media-queries.scss */
   .col-xs-4-4 {
     width: 100%;
   }
 
-  /* line 44, ../sass/layout/_grid-media-queries.scss */
+  /* line 46, ../sass/layout/_grid-media-queries.scss */
   .col-xs-1-5 {
     width: 20%;
   }
 
-  /* line 45, ../sass/layout/_grid-media-queries.scss */
+  /* line 47, ../sass/layout/_grid-media-queries.scss */
   .col-xs-2-5 {
     width: 40%;
   }
 
-  /* line 46, ../sass/layout/_grid-media-queries.scss */
+  /* line 48, ../sass/layout/_grid-media-queries.scss */
   .col-xs-3-5 {
     width: 60%;
   }
 
-  /* line 47, ../sass/layout/_grid-media-queries.scss */
+  /* line 49, ../sass/layout/_grid-media-queries.scss */
   .col-xs-4-5 {
     width: 80%;
   }
 
-  /* line 48, ../sass/layout/_grid-media-queries.scss */
+  /* line 50, ../sass/layout/_grid-media-queries.scss */
   .col-xs-5-5 {
     width: 100%;
   }
 
-  /* line 51, ../sass/layout/_grid-media-queries.scss */
+  /* line 53, ../sass/layout/_grid-media-queries.scss */
   .col-xs-1-6 {
     width: 16.66%;
   }
 
-  /* line 52, ../sass/layout/_grid-media-queries.scss */
+  /* line 54, ../sass/layout/_grid-media-queries.scss */
   .col-xs-2-6 {
     width: 33.33%;
   }
 
-  /* line 53, ../sass/layout/_grid-media-queries.scss */
+  /* line 55, ../sass/layout/_grid-media-queries.scss */
   .col-xs-3-6 {
     width: 50%;
   }
 
-  /* line 54, ../sass/layout/_grid-media-queries.scss */
+  /* line 56, ../sass/layout/_grid-media-queries.scss */
   .col-xs-4-6 {
     width: 66.66%;
   }
 
-  /* line 55, ../sass/layout/_grid-media-queries.scss */
+  /* line 57, ../sass/layout/_grid-media-queries.scss */
   .col-xs-5-6 {
     width: 83.33%;
   }
 
-  /* line 56, ../sass/layout/_grid-media-queries.scss */
+  /* line 58, ../sass/layout/_grid-media-queries.scss */
   .col-xs-6-6 {
     width: 100%;
   }
 }
 @media (min-width: 384px) and (max-width: 768px) {
-  /* line 66, ../sass/layout/_grid-media-queries.scss */
-  .col-sm-1-1,
-  .col-sm-1-2:nth-child(2n+1),
-  .col-sm-1-3:nth-child(3n+1),
-  .col-sm-1-4:nth-child(4n+1),
-  .col-sm-1-5:nth-child(5n+1),
-  .col-sm-1-6:nth-child(6n+1) {
+  /* line 69, ../sass/layout/_grid-media-queries.scss */
+  .grid-fixed-height .col-sm-1-1,
+  .grid-fixed-height .col-sm-1-2:nth-child(2n+1),
+  .grid-fixed-height .col-sm-1-3:nth-child(3n+1),
+  .grid-fixed-height .col-sm-1-4:nth-child(4n+1),
+  .grid-fixed-height .col-sm-1-5:nth-child(5n+1),
+  .grid-fixed-height .col-sm-1-6:nth-child(6n+1) {
     content: '';
     display: table;
     clear: both;
   }
 
-  /* line 73, ../sass/layout/_grid-media-queries.scss */
+  /* line 77, ../sass/layout/_grid-media-queries.scss */
   .col-sm-1-1 {
     width: 100%;
   }
 
-  /* line 76, ../sass/layout/_grid-media-queries.scss */
+  /* line 80, ../sass/layout/_grid-media-queries.scss */
   .col-sm-1-2 {
     width: 50%;
   }
 
-  /* line 77, ../sass/layout/_grid-media-queries.scss */
+  /* line 81, ../sass/layout/_grid-media-queries.scss */
   .col-sm-2-2 {
     width: 100%;
   }
 
-  /* line 80, ../sass/layout/_grid-media-queries.scss */
+  /* line 84, ../sass/layout/_grid-media-queries.scss */
   .col-sm-1-3 {
     width: 33.33%;
   }
 
-  /* line 81, ../sass/layout/_grid-media-queries.scss */
+  /* line 85, ../sass/layout/_grid-media-queries.scss */
   .col-sm-2-3 {
     width: 66.66%;
   }
 
-  /* line 82, ../sass/layout/_grid-media-queries.scss */
+  /* line 86, ../sass/layout/_grid-media-queries.scss */
   .col-sm-3-3 {
     width: 100%;
   }
 
-  /* line 85, ../sass/layout/_grid-media-queries.scss */
+  /* line 89, ../sass/layout/_grid-media-queries.scss */
   .col-sm-1-4 {
     width: 25%;
   }
 
-  /* line 86, ../sass/layout/_grid-media-queries.scss */
+  /* line 90, ../sass/layout/_grid-media-queries.scss */
   .col-sm-2-4 {
     width: 50%;
   }
 
-  /* line 87, ../sass/layout/_grid-media-queries.scss */
+  /* line 91, ../sass/layout/_grid-media-queries.scss */
   .col-sm-3-4 {
     width: 75%;
   }
 
-  /* line 88, ../sass/layout/_grid-media-queries.scss */
+  /* line 92, ../sass/layout/_grid-media-queries.scss */
   .col-sm-4-4 {
     width: 100%;
   }
 
-  /* line 91, ../sass/layout/_grid-media-queries.scss */
+  /* line 95, ../sass/layout/_grid-media-queries.scss */
   .col-sm-1-5 {
     width: 20%;
   }
 
-  /* line 92, ../sass/layout/_grid-media-queries.scss */
+  /* line 96, ../sass/layout/_grid-media-queries.scss */
   .col-sm-2-5 {
     width: 40%;
   }
 
-  /* line 93, ../sass/layout/_grid-media-queries.scss */
+  /* line 97, ../sass/layout/_grid-media-queries.scss */
   .col-sm-3-5 {
     width: 60%;
   }
 
-  /* line 94, ../sass/layout/_grid-media-queries.scss */
+  /* line 98, ../sass/layout/_grid-media-queries.scss */
   .col-sm-4-5 {
     width: 80%;
   }
 
-  /* line 95, ../sass/layout/_grid-media-queries.scss */
+  /* line 99, ../sass/layout/_grid-media-queries.scss */
   .col-sm-5-5 {
     width: 100%;
   }
 
-  /* line 98, ../sass/layout/_grid-media-queries.scss */
+  /* line 102, ../sass/layout/_grid-media-queries.scss */
   .col-sm-1-6 {
     width: 16.66%;
   }
 
-  /* line 99, ../sass/layout/_grid-media-queries.scss */
+  /* line 103, ../sass/layout/_grid-media-queries.scss */
   .col-sm-2-6 {
     width: 33.33%;
   }
 
-  /* line 100, ../sass/layout/_grid-media-queries.scss */
+  /* line 104, ../sass/layout/_grid-media-queries.scss */
   .col-sm-3-6 {
     width: 50%;
   }
 
-  /* line 101, ../sass/layout/_grid-media-queries.scss */
+  /* line 105, ../sass/layout/_grid-media-queries.scss */
   .col-sm-4-6 {
     width: 66.66%;
   }
 
-  /* line 102, ../sass/layout/_grid-media-queries.scss */
+  /* line 106, ../sass/layout/_grid-media-queries.scss */
   .col-sm-5-6 {
     width: 83.33%;
   }
 
-  /* line 103, ../sass/layout/_grid-media-queries.scss */
+  /* line 107, ../sass/layout/_grid-media-queries.scss */
   .col-sm-6-6 {
     width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 1152px) {
-  /* line 113, ../sass/layout/_grid-media-queries.scss */
-  .col-md-1-1,
-  .col-md-1-2:nth-child(2n+1),
-  .col-md-1-3:nth-child(3n+1),
-  .col-md-1-4:nth-child(4n+1),
-  .col-md-1-5:nth-child(5n+1),
-  .col-md-1-6:nth-child(6n+1) {
+  /* line 118, ../sass/layout/_grid-media-queries.scss */
+  .grid-fixed-height .col-md-1-1,
+  .grid-fixed-height .col-md-1-2:nth-child(2n+1),
+  .grid-fixed-height .col-md-1-3:nth-child(3n+1),
+  .grid-fixed-height .col-md-1-4:nth-child(4n+1),
+  .grid-fixed-height .col-md-1-5:nth-child(5n+1),
+  .grid-fixed-height .col-md-1-6:nth-child(6n+1) {
     content: '';
     display: table;
     clear: both;
   }
 
-  /* line 120, ../sass/layout/_grid-media-queries.scss */
+  /* line 126, ../sass/layout/_grid-media-queries.scss */
   .col-md-1-1 {
     width: 100%;
   }
 
-  /* line 123, ../sass/layout/_grid-media-queries.scss */
+  /* line 129, ../sass/layout/_grid-media-queries.scss */
   .col-md-1-2 {
     width: 50%;
   }
 
-  /* line 124, ../sass/layout/_grid-media-queries.scss */
+  /* line 130, ../sass/layout/_grid-media-queries.scss */
   .col-md-2-2 {
     width: 100%;
   }
 
-  /* line 127, ../sass/layout/_grid-media-queries.scss */
+  /* line 133, ../sass/layout/_grid-media-queries.scss */
   .col-md-1-3 {
     width: 33.33%;
   }
 
-  /* line 128, ../sass/layout/_grid-media-queries.scss */
+  /* line 134, ../sass/layout/_grid-media-queries.scss */
   .col-md-2-3 {
     width: 66.66%;
   }
 
-  /* line 129, ../sass/layout/_grid-media-queries.scss */
+  /* line 135, ../sass/layout/_grid-media-queries.scss */
   .col-md-3-3 {
     width: 100%;
   }
 
-  /* line 132, ../sass/layout/_grid-media-queries.scss */
+  /* line 138, ../sass/layout/_grid-media-queries.scss */
   .col-md-1-4 {
     width: 25%;
   }
 
-  /* line 133, ../sass/layout/_grid-media-queries.scss */
+  /* line 139, ../sass/layout/_grid-media-queries.scss */
   .col-md-2-4 {
     width: 50%;
   }
 
-  /* line 134, ../sass/layout/_grid-media-queries.scss */
+  /* line 140, ../sass/layout/_grid-media-queries.scss */
   .col-md-3-4 {
     width: 75%;
   }
 
-  /* line 135, ../sass/layout/_grid-media-queries.scss */
+  /* line 141, ../sass/layout/_grid-media-queries.scss */
   .col-md-4-4 {
     width: 100%;
   }
 
-  /* line 138, ../sass/layout/_grid-media-queries.scss */
+  /* line 144, ../sass/layout/_grid-media-queries.scss */
   .col-md-1-5 {
     width: 20%;
   }
 
-  /* line 139, ../sass/layout/_grid-media-queries.scss */
+  /* line 145, ../sass/layout/_grid-media-queries.scss */
   .col-md-2-5 {
     width: 40%;
   }
 
-  /* line 140, ../sass/layout/_grid-media-queries.scss */
+  /* line 146, ../sass/layout/_grid-media-queries.scss */
   .col-md-3-5 {
     width: 60%;
   }
 
-  /* line 141, ../sass/layout/_grid-media-queries.scss */
+  /* line 147, ../sass/layout/_grid-media-queries.scss */
   .col-md-4-5 {
     width: 80%;
   }
 
-  /* line 142, ../sass/layout/_grid-media-queries.scss */
+  /* line 148, ../sass/layout/_grid-media-queries.scss */
   .col-md-5-5 {
     width: 100%;
   }
 
-  /* line 145, ../sass/layout/_grid-media-queries.scss */
+  /* line 151, ../sass/layout/_grid-media-queries.scss */
   .col-md-1-6 {
     width: 16.66%;
   }
 
-  /* line 146, ../sass/layout/_grid-media-queries.scss */
+  /* line 152, ../sass/layout/_grid-media-queries.scss */
   .col-md-2-6 {
     width: 33.33%;
   }
 
-  /* line 147, ../sass/layout/_grid-media-queries.scss */
+  /* line 153, ../sass/layout/_grid-media-queries.scss */
   .col-md-3-6 {
     width: 50%;
   }
 
-  /* line 148, ../sass/layout/_grid-media-queries.scss */
+  /* line 154, ../sass/layout/_grid-media-queries.scss */
   .col-md-4-6 {
     width: 66.66%;
   }
 
-  /* line 149, ../sass/layout/_grid-media-queries.scss */
+  /* line 155, ../sass/layout/_grid-media-queries.scss */
   .col-md-5-6 {
     width: 83.33%;
   }
 
-  /* line 150, ../sass/layout/_grid-media-queries.scss */
+  /* line 156, ../sass/layout/_grid-media-queries.scss */
   .col-md-6-6 {
     width: 100%;
   }
 }
 @media (min-width: 1152px) and (max-width: 1536px) {
-  /* line 160, ../sass/layout/_grid-media-queries.scss */
-  .col-lg-1-1,
-  .col-lg-1-2:nth-child(2n+1),
-  .col-lg-1-3:nth-child(3n+1),
-  .col-lg-1-4:nth-child(4n+1),
-  .col-lg-1-5:nth-child(5n+1),
-  .col-lg-1-6:nth-child(6n+1) {
+  /* line 167, ../sass/layout/_grid-media-queries.scss */
+  .grid-fixed-height .col-lg-1-1,
+  .grid-fixed-height .col-lg-1-2:nth-child(2n+1),
+  .grid-fixed-height .col-lg-1-3:nth-child(3n+1),
+  .grid-fixed-height .col-lg-1-4:nth-child(4n+1),
+  .grid-fixed-height .col-lg-1-5:nth-child(5n+1),
+  .grid-fixed-height .col-lg-1-6:nth-child(6n+1) {
     content: '';
     display: table;
     clear: both;
   }
 
-  /* line 167, ../sass/layout/_grid-media-queries.scss */
+  /* line 175, ../sass/layout/_grid-media-queries.scss */
   .col-lg-1-1 {
     width: 100%;
   }
 
-  /* line 170, ../sass/layout/_grid-media-queries.scss */
+  /* line 178, ../sass/layout/_grid-media-queries.scss */
   .col-lg-1-2 {
     width: 50%;
   }
 
-  /* line 171, ../sass/layout/_grid-media-queries.scss */
+  /* line 179, ../sass/layout/_grid-media-queries.scss */
   .col-lg-2-2 {
     width: 100%;
   }
 
-  /* line 174, ../sass/layout/_grid-media-queries.scss */
+  /* line 182, ../sass/layout/_grid-media-queries.scss */
   .col-lg-1-3 {
     width: 33.33%;
   }
 
-  /* line 175, ../sass/layout/_grid-media-queries.scss */
+  /* line 183, ../sass/layout/_grid-media-queries.scss */
   .col-lg-2-3 {
     width: 66.66%;
   }
 
-  /* line 176, ../sass/layout/_grid-media-queries.scss */
+  /* line 184, ../sass/layout/_grid-media-queries.scss */
   .col-lg-3-3 {
     width: 100%;
   }
 
-  /* line 179, ../sass/layout/_grid-media-queries.scss */
+  /* line 187, ../sass/layout/_grid-media-queries.scss */
   .col-lg-1-4 {
     width: 25%;
   }
 
-  /* line 180, ../sass/layout/_grid-media-queries.scss */
+  /* line 188, ../sass/layout/_grid-media-queries.scss */
   .col-lg-2-4 {
     width: 50%;
   }
 
-  /* line 181, ../sass/layout/_grid-media-queries.scss */
+  /* line 189, ../sass/layout/_grid-media-queries.scss */
   .col-lg-3-4 {
     width: 75%;
   }
 
-  /* line 182, ../sass/layout/_grid-media-queries.scss */
+  /* line 190, ../sass/layout/_grid-media-queries.scss */
   .col-lg-4-4 {
     width: 100%;
   }
 
-  /* line 185, ../sass/layout/_grid-media-queries.scss */
+  /* line 193, ../sass/layout/_grid-media-queries.scss */
   .col-lg-1-5 {
     width: 20%;
   }
 
-  /* line 186, ../sass/layout/_grid-media-queries.scss */
+  /* line 194, ../sass/layout/_grid-media-queries.scss */
   .col-lg-2-5 {
     width: 40%;
   }
 
-  /* line 187, ../sass/layout/_grid-media-queries.scss */
+  /* line 195, ../sass/layout/_grid-media-queries.scss */
   .col-lg-3-5 {
     width: 60%;
   }
 
-  /* line 188, ../sass/layout/_grid-media-queries.scss */
+  /* line 196, ../sass/layout/_grid-media-queries.scss */
   .col-lg-4-5 {
     width: 80%;
   }
 
-  /* line 189, ../sass/layout/_grid-media-queries.scss */
+  /* line 197, ../sass/layout/_grid-media-queries.scss */
   .col-lg-5-5 {
     width: 100%;
   }
 
-  /* line 192, ../sass/layout/_grid-media-queries.scss */
+  /* line 200, ../sass/layout/_grid-media-queries.scss */
   .col-lg-1-6 {
     width: 16.66%;
   }
 
-  /* line 193, ../sass/layout/_grid-media-queries.scss */
+  /* line 201, ../sass/layout/_grid-media-queries.scss */
   .col-lg-2-6 {
     width: 33.33%;
   }
 
-  /* line 194, ../sass/layout/_grid-media-queries.scss */
+  /* line 202, ../sass/layout/_grid-media-queries.scss */
   .col-lg-3-6 {
     width: 50%;
   }
 
-  /* line 195, ../sass/layout/_grid-media-queries.scss */
+  /* line 203, ../sass/layout/_grid-media-queries.scss */
   .col-lg-4-6 {
     width: 66.66%;
   }
 
-  /* line 196, ../sass/layout/_grid-media-queries.scss */
+  /* line 204, ../sass/layout/_grid-media-queries.scss */
   .col-lg-5-6 {
     width: 83.33%;
   }
 
-  /* line 197, ../sass/layout/_grid-media-queries.scss */
+  /* line 205, ../sass/layout/_grid-media-queries.scss */
   .col-lg-6-6 {
     width: 100%;
   }
 }
 @media (min-width: 1536px) and (max-width: 1920px) {
-  /* line 207, ../sass/layout/_grid-media-queries.scss */
-  .col-xl-1-1,
-  .col-xl-1-2:nth-child(2n+1),
-  .col-xl-1-3:nth-child(3n+1),
-  .col-xl-1-4:nth-child(4n+1),
-  .col-xl-1-5:nth-child(5n+1),
-  .col-xl-1-6:nth-child(6n+1) {
+  /* line 216, ../sass/layout/_grid-media-queries.scss */
+  .grid-fixed-height .col-xl-1-1,
+  .grid-fixed-height .col-xl-1-2:nth-child(2n+1),
+  .grid-fixed-height .col-xl-1-3:nth-child(3n+1),
+  .grid-fixed-height .col-xl-1-4:nth-child(4n+1),
+  .grid-fixed-height .col-xl-1-5:nth-child(5n+1),
+  .grid-fixed-height .col-xl-1-6:nth-child(6n+1) {
     content: '';
     display: table;
     clear: both;
   }
 
-  /* line 214, ../sass/layout/_grid-media-queries.scss */
+  /* line 224, ../sass/layout/_grid-media-queries.scss */
   .col-xl-1-1 {
     width: 100%;
   }
 
-  /* line 217, ../sass/layout/_grid-media-queries.scss */
+  /* line 227, ../sass/layout/_grid-media-queries.scss */
   .col-xl-1-2 {
     width: 50%;
   }
 
-  /* line 218, ../sass/layout/_grid-media-queries.scss */
+  /* line 228, ../sass/layout/_grid-media-queries.scss */
   .col-xl-2-2 {
     width: 100%;
   }
 
-  /* line 221, ../sass/layout/_grid-media-queries.scss */
+  /* line 231, ../sass/layout/_grid-media-queries.scss */
   .col-xl-1-3 {
     width: 33.33%;
   }
 
-  /* line 222, ../sass/layout/_grid-media-queries.scss */
+  /* line 232, ../sass/layout/_grid-media-queries.scss */
   .col-xl-2-3 {
     width: 66.66%;
   }
 
-  /* line 223, ../sass/layout/_grid-media-queries.scss */
+  /* line 233, ../sass/layout/_grid-media-queries.scss */
   .col-xl-3-3 {
     width: 100%;
   }
 
-  /* line 226, ../sass/layout/_grid-media-queries.scss */
+  /* line 236, ../sass/layout/_grid-media-queries.scss */
   .col-xl-1-4 {
     width: 25%;
   }
 
-  /* line 227, ../sass/layout/_grid-media-queries.scss */
+  /* line 237, ../sass/layout/_grid-media-queries.scss */
   .col-xl-2-4 {
     width: 50%;
   }
 
-  /* line 228, ../sass/layout/_grid-media-queries.scss */
+  /* line 238, ../sass/layout/_grid-media-queries.scss */
   .col-xl-3-4 {
     width: 75%;
   }
 
-  /* line 229, ../sass/layout/_grid-media-queries.scss */
+  /* line 239, ../sass/layout/_grid-media-queries.scss */
   .col-xl-4-4 {
     width: 100%;
   }
 
-  /* line 232, ../sass/layout/_grid-media-queries.scss */
+  /* line 242, ../sass/layout/_grid-media-queries.scss */
   .col-xl-1-5 {
     width: 20%;
   }
 
-  /* line 233, ../sass/layout/_grid-media-queries.scss */
+  /* line 243, ../sass/layout/_grid-media-queries.scss */
   .col-xl-2-5 {
     width: 40%;
   }
 
-  /* line 234, ../sass/layout/_grid-media-queries.scss */
+  /* line 244, ../sass/layout/_grid-media-queries.scss */
   .col-xl-3-5 {
     width: 60%;
   }
 
-  /* line 235, ../sass/layout/_grid-media-queries.scss */
+  /* line 245, ../sass/layout/_grid-media-queries.scss */
   .col-xl-4-5 {
     width: 80%;
   }
 
-  /* line 236, ../sass/layout/_grid-media-queries.scss */
+  /* line 246, ../sass/layout/_grid-media-queries.scss */
   .col-xl-5-5 {
     width: 100%;
   }
 
-  /* line 239, ../sass/layout/_grid-media-queries.scss */
+  /* line 249, ../sass/layout/_grid-media-queries.scss */
   .col-xl-1-6 {
     width: 16.66%;
   }
 
-  /* line 240, ../sass/layout/_grid-media-queries.scss */
+  /* line 250, ../sass/layout/_grid-media-queries.scss */
   .col-xl-2-6 {
     width: 33.33%;
   }
 
-  /* line 241, ../sass/layout/_grid-media-queries.scss */
+  /* line 251, ../sass/layout/_grid-media-queries.scss */
   .col-xl-3-6 {
     width: 50%;
   }
 
-  /* line 242, ../sass/layout/_grid-media-queries.scss */
+  /* line 252, ../sass/layout/_grid-media-queries.scss */
   .col-xl-4-6 {
     width: 66.66%;
   }
 
-  /* line 243, ../sass/layout/_grid-media-queries.scss */
+  /* line 253, ../sass/layout/_grid-media-queries.scss */
   .col-xl-5-6 {
     width: 83.33%;
   }
 
-  /* line 244, ../sass/layout/_grid-media-queries.scss */
+  /* line 254, ../sass/layout/_grid-media-queries.scss */
   .col-xl-6-6 {
     width: 100%;
   }
 }
 @media (min-width: 1920px) {
-  /* line 254, ../sass/layout/_grid-media-queries.scss */
-  .col-xxl-1-1,
-  .col-xxl-1-2:nth-child(2n+1),
-  .col-xxl-1-3:nth-child(3n+1),
-  .col-xxl-1-4:nth-child(4n+1),
-  .col-xxl-1-5:nth-child(5n+1),
-  .col-xxl-1-6:nth-child(6n+1) {
+  /* line 265, ../sass/layout/_grid-media-queries.scss */
+  .grid-fixed-height .col-xxl-1-1,
+  .grid-fixed-height .col-xxl-1-2:nth-child(2n+1),
+  .grid-fixed-height .col-xxl-1-3:nth-child(3n+1),
+  .grid-fixed-height .col-xxl-1-4:nth-child(4n+1),
+  .grid-fixed-height .col-xxl-1-5:nth-child(5n+1),
+  .grid-fixed-height .col-xxl-1-6:nth-child(6n+1) {
     content: '';
     display: table;
     clear: both;
   }
 
-  /* line 261, ../sass/layout/_grid-media-queries.scss */
+  /* line 273, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-1-1 {
     width: 100%;
   }
 
-  /* line 264, ../sass/layout/_grid-media-queries.scss */
+  /* line 276, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-1-2 {
     width: 50%;
   }
 
-  /* line 265, ../sass/layout/_grid-media-queries.scss */
+  /* line 277, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-2-2 {
     width: 100%;
   }
 
-  /* line 268, ../sass/layout/_grid-media-queries.scss */
+  /* line 280, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-1-3 {
     width: 33.33%;
   }
 
-  /* line 269, ../sass/layout/_grid-media-queries.scss */
+  /* line 281, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-2-3 {
     width: 66.66%;
   }
 
-  /* line 270, ../sass/layout/_grid-media-queries.scss */
+  /* line 282, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-3-3 {
     width: 100%;
   }
 
-  /* line 273, ../sass/layout/_grid-media-queries.scss */
+  /* line 285, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-1-4 {
     width: 25%;
   }
 
-  /* line 274, ../sass/layout/_grid-media-queries.scss */
+  /* line 286, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-2-4 {
     width: 50%;
   }
 
-  /* line 275, ../sass/layout/_grid-media-queries.scss */
+  /* line 287, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-3-4 {
     width: 75%;
   }
 
-  /* line 276, ../sass/layout/_grid-media-queries.scss */
+  /* line 288, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-4-4 {
     width: 100%;
   }
 
-  /* line 279, ../sass/layout/_grid-media-queries.scss */
+  /* line 291, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-1-5 {
     width: 20%;
   }
 
-  /* line 280, ../sass/layout/_grid-media-queries.scss */
+  /* line 292, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-2-5 {
     width: 40%;
   }
 
-  /* line 281, ../sass/layout/_grid-media-queries.scss */
+  /* line 293, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-3-5 {
     width: 60%;
   }
 
-  /* line 282, ../sass/layout/_grid-media-queries.scss */
+  /* line 294, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-4-5 {
     width: 80%;
   }
 
-  /* line 283, ../sass/layout/_grid-media-queries.scss */
+  /* line 295, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-5-5 {
     width: 100%;
   }
 
-  /* line 286, ../sass/layout/_grid-media-queries.scss */
+  /* line 298, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-1-6 {
     width: 16.66%;
   }
 
-  /* line 287, ../sass/layout/_grid-media-queries.scss */
+  /* line 299, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-2-6 {
     width: 33.33%;
   }
 
-  /* line 288, ../sass/layout/_grid-media-queries.scss */
+  /* line 300, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-3-6 {
     width: 50%;
   }
 
-  /* line 289, ../sass/layout/_grid-media-queries.scss */
+  /* line 301, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-4-6 {
     width: 66.66%;
   }
 
-  /* line 290, ../sass/layout/_grid-media-queries.scss */
+  /* line 302, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-5-6 {
     width: 83.33%;
   }
 
-  /* line 291, ../sass/layout/_grid-media-queries.scss */
+  /* line 303, ../sass/layout/_grid-media-queries.scss */
   .col-xxl-6-6 {
     width: 100%;
   }
