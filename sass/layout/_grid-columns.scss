@@ -2,6 +2,9 @@
 	float: left;
 }
 
+// 0
+.col-0 { display: none; }
+
 // X/1
 $width-1-1: 100%;
 .col-1-1 { width: $width-1-1; }

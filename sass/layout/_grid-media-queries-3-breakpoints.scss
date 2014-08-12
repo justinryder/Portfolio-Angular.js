@@ -13,6 +13,9 @@
 		}
 	}
 
+	// 0
+	.col-s-0 { display: none; }
+
 	// X/1
 	.col-s-1-1 { width: $width-1-1; }
 
@@ -62,6 +65,9 @@
 		}	
 	}
 
+	// 0
+	.col-m-0 { display: none; }
+
 	// X/1
 	.col-m-1-1 { width: $width-1-1; }
 
@@ -110,6 +116,9 @@
 			clear: both;
 		}
 	}
+
+	// 0
+	.col-l-0 { display: none; }
 
 	// X/1
 	.col-l-1-1 { width: $width-1-1; }

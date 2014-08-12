@@ -1,12 +1,33 @@
-<section>
-	<h1>Justin Ryder - Game Programmer</h1>
-	<p>I recently graduated from <a href="//www.champlain.edu">Champlain College</a> in Burlington, VT with a BS in Game Programming. I am currently working as a Junior Software Engineer at <a href="//www.mywebgrocer.com">MyWebGrocer</a>. As part of my Senior Capstone project, I worked on Sagittarii Run, a trans-dimensional arcade racing game. To keep my programming skills sharp I solve Project Euler problems. My favorite languages are C#, C++, and JavaScript. I also play the trumpet, 6 string guitar, and bass guitar. With the knowledge that I have gained through my experience and education, I am excited to make a significant contribution to the video game industry.</p>
-</section>
-<ul>
-	<li ng-repeat="link in contactLinks">
-		<a ng-href="{{link.url}}">{{link.title}}</a>
-	</li>
-</ul>
+<div class="grid">
+	<p class="
+		col-xs-6-6
+		col-sm-6-6
+		col-md-4-6
+		col-lg-3-6
+		col-xl-2-6
+		col-xxl-2-6">I recently graduated from <a href="//www.champlain.edu">Champlain College</a> in Burlington, VT with a BS in Game Programming. I am currently working as a Junior Software Engineer at <a href="//www.mywebgrocer.com">MyWebGrocer</a>. As part of my Senior Capstone project, I worked on Sagittarii Run, a trans-dimensional arcade racing game. To keep my programming skills sharp I solve Project Euler problems. My favorite languages are C#, C++, and JavaScript. I also play the trumpet, 6 string guitar, and bass guitar. With the knowledge that I have gained through my experience and education, I am excited to make a significant contribution to the video game industry.</p>
+	<div class="
+		col-xs-0
+		col-sm-0
+		col-md-0
+		col-lg-1-6
+		col-xl-2-6
+		col-xxl-3-6">
+	</div>
+	<aside class="
+		col-xs-0
+		col-sm-6-6
+		col-md-2-6
+		col-lg-2-6
+		col-xl-2-6
+		col-xxl-1-6">
+		<ul>
+			<li ng-repeat="link in contactLinks">
+				<a ng-href="{{link.url}}">{{link.title}}</a>
+			</li>
+		</ul>
+	</aside>
+</div>
 <div class="grid">
 	<experience-summary
 		class="
