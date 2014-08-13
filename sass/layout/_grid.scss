@@ -1,5 +1,7 @@
+@import "_grid-config";
+@import "_grid-mixins";
 @import "_grid-columns";
-@import "_grid-media-queries";
+@import "_grid-columns-media-queries";
 
 .grid:after {
 	content: '';

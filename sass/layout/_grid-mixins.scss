@@ -1,0 +1,20 @@
+@mixin generate-columns($column-count, $size-prefix:"") {
+	$prefix: ".col-";
+	@if $size-prefix != "" {
+		$prefix: $prefix + $size-prefix + "-";
+	}
+
+	#{$prefix}1 {
+		display: none;
+	}
+	
+	@for $numerator from 1 through $column-count {
+		@for $denominator from 1 through $column-count {
+
+			#{$prefix}#{$numerator}-#{$denominator} {
+				width: $numerator / $denominator * 100%;
+			}
+
+		}
+	}
+}

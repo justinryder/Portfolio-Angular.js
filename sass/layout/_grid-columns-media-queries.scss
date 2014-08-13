@@ -9,11 +9,11 @@ $xl-lower-bound: $lg-upper-bound;
 $xl-upper-bound: 1920px;
 $xxl-lower-bound: $xl-upper-bound;
 
-@import "_grid-media-queries-6-breakpoints";
+@import "_grid-columns-media-queries-6-breakpoints";
 
 $s-upper-bound: $sm-upper-bound;
 $m-lower-bound: $s-upper-bound;
 $m-upper-bound: $lg-upper-bound;
 $l-lower-bound: $m-upper-bound;
 
-@import "_grid-media-queries-3-breakpoints";
+@import "_grid-columns-media-queries-3-breakpoints";
