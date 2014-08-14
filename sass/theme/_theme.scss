@@ -1,4 +1,5 @@
-@import "theme/_test";
+@import "_header";
+@import "_nav";
 
 body {
 	font: 0.8em/165% "Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
@@ -6,25 +7,4 @@ body {
 
 a {
 	text-decoration: none;
-}
-
-header {
-	background-color: black;
-	color: white;
-}
-
-header a {
-	color: #1487d4;
-}
-
-header h1 {
-	font-size: 3em;
-}
-
-header h2 {
-	font-size: 1.5em;
-}
-
-nav{
-	border: 1px solid black;
 }

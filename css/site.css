@@ -5,7 +5,7 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com 
 Twitter: @rich_clark
 */
-/* line 20, ../sass/layout/_reset.scss */
+/* line 20, ../sass/_reset.scss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -27,35 +27,35 @@ time, mark, audio, video {
   background: transparent;
 }
 
-/* line 30, ../sass/layout/_reset.scss */
+/* line 30, ../sass/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 35, ../sass/layout/_reset.scss */
+/* line 35, ../sass/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 39, ../sass/layout/_reset.scss */
-nav ul {
+/* line 39, ../sass/_reset.scss */
+ul {
   list-style: none;
 }
 
-/* line 43, ../sass/layout/_reset.scss */
+/* line 43, ../sass/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 48, ../sass/layout/_reset.scss */
+/* line 48, ../sass/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 53, ../sass/layout/_reset.scss */
+/* line 53, ../sass/_reset.scss */
 a {
   margin: 0;
   padding: 0;
@@ -65,7 +65,7 @@ a {
 }
 
 /* change colours to suit your needs */
-/* line 62, ../sass/layout/_reset.scss */
+/* line 62, ../sass/_reset.scss */
 ins {
   background-color: #ff9;
   color: #000;
@@ -73,7 +73,7 @@ ins {
 }
 
 /* change colours to suit your needs */
-/* line 69, ../sass/layout/_reset.scss */
+/* line 69, ../sass/_reset.scss */
 mark {
   background-color: #ff9;
   color: #000;
@@ -81,25 +81,25 @@ mark {
   font-weight: bold;
 }
 
-/* line 76, ../sass/layout/_reset.scss */
+/* line 76, ../sass/_reset.scss */
 del {
   text-decoration: line-through;
 }
 
-/* line 80, ../sass/layout/_reset.scss */
+/* line 80, ../sass/_reset.scss */
 abbr[title], dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
-/* line 85, ../sass/layout/_reset.scss */
+/* line 85, ../sass/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
-/* line 91, ../sass/layout/_reset.scss */
+/* line 91, ../sass/_reset.scss */
 hr {
   display: block;
   height: 1px;
@@ -109,7 +109,7 @@ hr {
   padding: 0;
 }
 
-/* line 100, ../sass/layout/_reset.scss */
+/* line 100, ../sass/_reset.scss */
 input, select {
   vertical-align: middle;
 }
@@ -2105,61 +2105,52 @@ input, select {
 header {
   padding: 10px;
 }
-
 /* line 5, ../sass/layout/_header.scss */
-header h1, header h2 {
+header h1,
+header h2 {
   display: inline;
   margin-right: 10px;
 }
 
 /* line 1, ../sass/layout/_nav.scss */
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 6, ../sass/layout/_nav.scss */
 nav li {
   display: inline;
 }
 
-/* line 1, ../sass/theme/_test.scss */
-[class*="col-"] {
-  border: 1px solid red;
-}
-
-/* line 3, ../sass/theme/_theme.scss */
-body {
-  font: 0.8em/165% "Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
-}
-
-/* line 7, ../sass/theme/_theme.scss */
-a {
-  text-decoration: none;
-}
-
-/* line 11, ../sass/theme/_theme.scss */
+/* line 1, ../sass/theme/_header.scss */
 header {
   background-color: black;
   color: white;
 }
-
-/* line 16, ../sass/theme/_theme.scss */
+/* line 5, ../sass/theme/_header.scss */
 header a {
   color: #1487d4;
 }
-
-/* line 20, ../sass/theme/_theme.scss */
+/* line 9, ../sass/theme/_header.scss */
 header h1 {
   font-size: 3em;
 }
-
-/* line 24, ../sass/theme/_theme.scss */
+/* line 13, ../sass/theme/_header.scss */
 header h2 {
   font-size: 1.5em;
 }
 
-/* line 28, ../sass/theme/_theme.scss */
+/* line 1, ../sass/theme/_nav.scss */
 nav {
   border: 1px solid black;
+}
+
+/* line 4, ../sass/theme/_theme.scss */
+body {
+  font: 0.8em/165% "Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+/* line 8, ../sass/theme/_theme.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 1, ../sass/_test.scss */
+[class*="col-"] {
+  border: 1px solid red;
 }
