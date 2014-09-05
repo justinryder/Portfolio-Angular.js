@@ -1,0 +1,17 @@
+@import "_h1-6";
+
+body {
+    font: 1em $site-font;
+    background-color: $site-background-color;
+}
+
+.button {
+    @include border-radius(5px, 5px);
+    background-color: $link-color;
+    color: $primary-color-readable;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}

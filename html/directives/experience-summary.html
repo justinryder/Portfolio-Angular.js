@@ -1,15 +1,29 @@
-<section>
-	<h1>{{title}}</h1>
-	<section>
-		<h2>Advanced Experience</h2>
+<section class="experience-summary">
+	<h1 class="experience-summary-title">{{title}}</h1>
+	<section class="skill-list">
+		<h2 class="skill-list-title">Advanced Experience</h2>
 		<ul>
-			<li ng-repeat="item in advanced">{{item}}</li>
+			<li ng-repeat="item in advanced">
+				<a class="
+					skill-list-item
+					button"
+					ng-href="{{item.link}}">
+					{{item.title}}
+				</a>
+			</li>
 		</ul>
 	</section>
-	<section>
-		<h2>Basic Experience</h2>
+	<section class="skill-list">
+		<h2 class="skill-list-title">Basic Experience</h2>
 		<ul>
-			<li ng-repeat="item in basic">{{item}}</li>
+			<li ng-repeat="item in basic">
+				<a class="
+					skill-list-item
+					button"
+					ng-href="{{item.link}}">
+					{{item.title}}
+				</a>
+			</li>
 		</ul>
 	</section>
 </section>

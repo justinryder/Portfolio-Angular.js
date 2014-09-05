@@ -1,55 +1,159 @@
 {
 	"programming": {
 		"advanced": [
-			"C#",
-			"C++",
-			".NET",
-			"XNA",
-			"Unity",
-			"ASP.NET MVC"
+			{
+				"title": "C#",
+				"link": "//msdn.microsoft.com/en-us/library/kx37x362.aspx"
+			},
+			{
+				"title": "C++",
+				"link": "#"
+			},
+			{
+				"title": ".NET",
+				"link": "#"
+			},
+			{
+				"title": "XNA",
+				"link": "#"
+			},
+			{
+				"title": "Unity",
+				"link": "#"
+			},
+			{
+				"title": "ASP.NET MVC",
+				"link": "#"
+			}
 		],
 		"basic": [
-			"SQL",
-			"HTML",
-			"CSS",
-			"SASS",
-			"JavaScript",
-			"Java",
-			"HLSL",
-			"GLSL",
-			"C",
-			"Python",
-			"Scilab",
-			"Allegro",
-			"Action Script 3.0"
+			{
+				"title": "SQL",
+				"link": "#"
+			},
+			{
+				"title": "HTML",
+				"link": "#"
+			},
+			{
+				"title": "CSS",
+				"link": "#"
+			},
+			{
+				"title": "SASS",
+				"link": "#"
+			},
+			{
+				"title": "JavaScript",
+				"link": "#"
+			},
+			{
+				"title": "Java",
+				"link": "#"
+			},
+			{
+				"title": "HLSL",
+				"link": "#"
+			},
+			{
+				"title": "GLSL",
+				"link": "#"
+			},
+			{
+				"title": "C",
+				"link": "#"
+			},
+			{
+				"title": "Python",
+				"link": "#"
+			},
+			{
+				"title": "Scilab",
+				"link": "#"
+			},
+			{
+				"title": "Allegro",
+				"link": "#"
+			},
+			{
+				"title": "Action Script 3.0",
+				"link": "#"
+			}
 		]
 	},
 	"software": {
 		"advanced": [
-			"Visual Studio",
-			"Microsoft Office",
-			"Adobe CS",
-			"Unity Editor"
+			{
+				"title": "Visual Studio",
+				"link": "#"
+			},
+			{
+				"title": "Microsoft Office",
+				"link": "#"
+			},
+			{
+				"title": "Adobe CS",
+				"link": "#"
+			},
+			{
+				"title": "Unity Editor"
+			}
 		],
 		"basic": [
-			"Microsoft Visio",
-			"MonoDevelop",
-			"SQLyog",
-			"Open Office",
-			"Eclipse",
-			"Autodesk Maya",
-			"Audacity"
+			{
+				"title": "Microsoft Visio",
+				"link": "#"
+			},
+			{
+				"title": "MonoDevelop",
+				"link": "#"
+			},
+			{
+				"title": "SQLyog",
+				"link": "#"
+			},
+			{
+				"title": "Open Office",
+				"link": "#"
+			},
+			{
+				"title": "Eclipse",
+				"link": "#"
+			},
+			{
+				"title": "Autodesk Maya",
+				"link": "#"
+			},
+			{
+				"title": "Audacity",
+				"link": "#"
+			}
 		]
 	},
 	"operatingSystems": {
 		"advanced": [
-			"Windows",
-			"Android"
+			{
+				"title": "Windows",
+				"link": "#"
+			},
+			{
+				"title": "Android",
+				"link": "#"
+			}
 		],
 		"basic": [
-			"Macintosh",
-			"iOS",
-			"Ubuntu"
+			{
+				"title": "Macintosh",
+				"link": "#"
+			},
+			{
+				"title": "iOS",
+				"link": "#"
+			},
+			{
+				"title": "Ubuntu",
+				"link": "#"
+			}
 		]
 	}
 }

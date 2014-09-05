@@ -1,5 +1,5 @@
 // (s) Small
-@media (max-width: $s-upper-bound) {
+@include media-width-s {
 	.grid-fixed-height {
 		.col-s-1-1,
 		.col-s-1-2:nth-child(2n+1),
@@ -17,7 +17,7 @@
 }
 
 // (m) Medium
-@media (min-width: $m-lower-bound) and (max-width: $m-upper-bound) {
+@include media-width-m {
 	.grid-fixed-height {
 		.col-m-1-1,
 		.col-m-1-2:nth-child(2n+1),
@@ -35,7 +35,7 @@
 }
 
 // (l) Large
-@media (min-width: $l-lower-bound) {
+@include media-width-l {
 	.grid-fixed-height {
 		.col-l-1-1,
 		.col-l-1-2:nth-child(2n+1),

@@ -1,19 +1,2 @@
-$xs-upper-bound: 384px;
-$sm-lower-bound: $xs-upper-bound;
-$sm-upper-bound: 768px;
-$md-lower-bound: $sm-upper-bound;
-$md-upper-bound: 1152px;
-$lg-lower-bound: $md-upper-bound;
-$lg-upper-bound: 1536px;
-$xl-lower-bound: $lg-upper-bound;
-$xl-upper-bound: 1920px;
-$xxl-lower-bound: $xl-upper-bound;
-
 @import "_grid-columns-media-queries-6-breakpoints";
-
-$s-upper-bound: $sm-upper-bound;
-$m-lower-bound: $s-upper-bound;
-$m-upper-bound: $lg-upper-bound;
-$l-lower-bound: $m-upper-bound;
-
 @import "_grid-columns-media-queries-3-breakpoints";

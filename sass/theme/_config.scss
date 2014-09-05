@@ -1,0 +1,11 @@
+$site-font: "Lucida Grande","Lucida Sans Unicode",Segoe UI,Helvetica,Arial,sans-serif;
+
+$primary-color: #1487d4;
+$primary-color-readable: white;
+$secondary-color: shade($primary-color, 80%);
+$secondary-color-readable: white;
+
+$site-background-color: white;
+$site-header-background-color: black;
+
+$link-color: $primary-color;

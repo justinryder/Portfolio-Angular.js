@@ -1,10 +1,6 @@
-header {
-	background-color: black;
+.site-header {
+	background-color: $site-header-background-color;
 	color: white;
-
-	a {
-		color: #1487d4;
-	}
 	
 	h1 {
 		font-size: 3em;

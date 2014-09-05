@@ -1,9 +1,10 @@
-<header>
+<header class="site-header">
 	<div ng-controller="HeaderController">
 		<h1><a href="#/home">{{siteName}}</a></h1>
 		<h2>{{siteSlogan}}</h2>
 	</div>
-	<nav ng-controller="MenuController">
+	<nav class="site-nav"
+		ng-controller="MenuController">
 		<ul>
 			<li ng-repeat="link in links">
 				<a href="{{link.url}}">{{link.name}}</a>

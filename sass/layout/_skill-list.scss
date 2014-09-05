@@ -1,0 +1,35 @@
+.skill-list {
+    @include pie-clearfix();
+}
+
+.skill-list,
+.skill-list-title,
+.skill-list-item {
+    margin: 1% 5%;
+}
+
+.skill-list-item {
+    float: left;
+    padding: 1% 5%;
+}
+
+@include media-width-s {
+    .skill-list {
+        width: 90%;
+    }
+}
+
+@include media-width-m {
+    .skill-list {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+}
+
+@include media-width-l {
+    .skill-list {
+        float: left;
+        width: 39%;
+    }
+}

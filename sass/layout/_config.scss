@@ -1,0 +1,69 @@
+$xs-upper-bound: 384px;
+$sm-lower-bound: $xs-upper-bound;
+$sm-upper-bound: 768px;
+$md-lower-bound: $sm-upper-bound;
+$md-upper-bound: 1152px;
+$lg-lower-bound: $md-upper-bound;
+$lg-upper-bound: 1536px;
+$xl-lower-bound: $lg-upper-bound;
+$xl-upper-bound: 1920px;
+$xxl-lower-bound: $xl-upper-bound;
+
+@mixin media-width-xs {
+    @media (max-width: $xs-upper-bound) {
+        @content
+    }
+}
+
+@mixin media-width-sm {
+    @media (min-width: $sm-lower-bound) and (max-width: $sm-upper-bound) {
+        @content
+    }
+}
+
+@mixin media-width-md {
+    @media (min-width: $md-lower-bound) and (max-width: $md-upper-bound) {
+        @content
+    }
+}
+
+@mixin media-width-lg {
+    @media (min-width: $lg-lower-bound) and (max-width: $lg-upper-bound) {
+        @content
+    }
+}
+
+@mixin media-width-xl {
+    @media (min-width: $xl-lower-bound) and (max-width: $xl-upper-bound) {
+        @content
+    }
+}
+
+@mixin media-width-xxl {
+    @media (min-width: $xxl-lower-bound) {
+        @content
+    }
+}
+
+$s-upper-bound: $sm-upper-bound;
+$m-lower-bound: $s-upper-bound;
+$m-upper-bound: $lg-upper-bound;
+$l-lower-bound: $m-upper-bound;
+
+@mixin media-width-s {
+    @media (max-width: $s-upper-bound) {
+        @content
+    }
+}
+
+@mixin media-width-m {
+    @media (min-width: $m-lower-bound) and (max-width: $m-upper-bound) {
+        @content
+    }
+}
+
+@mixin media-width-l {
+    @media (min-width: $l-lower-bound) {
+        @content
+    }
+}

@@ -1,5 +1,5 @@
 // (xs) Extra Small
-@media (max-width: $xs-upper-bound) {
+@include media-width-xs {
 	.grid-fixed-height {
 		.col-xs-1-1,
 		.col-xs-1-2:nth-child(2n+1),
@@ -17,7 +17,7 @@
 }
 
 // (sm) Small
-@media (min-width: $sm-lower-bound) and (max-width: $sm-upper-bound) {
+@include media-width-sm {
 	.grid-fixed-height {
 		.col-sm-1-1,
 		.col-sm-1-2:nth-child(2n+1),
@@ -35,7 +35,7 @@
 }
 
 // (md) Medium
-@media (min-width: $md-lower-bound) and (max-width: $md-upper-bound) {
+@include media-width-md {
 	.grid-fixed-height {
 		.col-md-1-1,
 		.col-md-1-2:nth-child(2n+1),
@@ -53,7 +53,7 @@
 }
 
 // (lg) Large
-@media (min-width: $lg-lower-bound) and (max-width: $lg-upper-bound) {
+@include media-width-lg {
 	.grid-fixed-height {
 		.col-lg-1-1,
 		.col-lg-1-2:nth-child(2n+1),
@@ -71,7 +71,7 @@
 }
 
 // (xl) Large
-@media (min-width: $xl-lower-bound) and (max-width: $xl-upper-bound) {
+@include media-width-xl {
 	.grid-fixed-height {
 		.col-xl-1-1,
 		.col-xl-1-2:nth-child(2n+1),
@@ -89,7 +89,7 @@
 }
 
 // (xxl) Large
-@media (min-width: $xxl-lower-bound) {
+@include media-width-xxl {
 	.grid-fixed-height {
 		.col-xxl-1-1,
 		.col-xxl-1-2:nth-child(2n+1),
