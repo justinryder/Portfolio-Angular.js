@@ -1,0 +1,14 @@
+<h1>
+	<span class="class-year">{{semester.classYear}}</span>
+	<span class="separator"> - </span>
+	<span>{{semester.season}} {{semester.year}}</span>
+</h1>
+<ul>
+	<li
+	class="course"
+	ng-repeat="class in semester.classes">
+		<span class="course-number">{{class.courseNumber}}</span>
+		<span class="separator"> - </span>
+		<span class="course-name">{{class.courseName}}</span>
+	</li>
+</ul>

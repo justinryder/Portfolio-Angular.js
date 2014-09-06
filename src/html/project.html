@@ -1,0 +1,20 @@
+<section>
+	<h1>{{project.title}}</h1>
+	<h2 ng-show="project.type == 'academic'">
+		{{project.semester.season}} {{project.semester.year}} - {{project.semester.classYear}}
+	</h2>
+</section>
+<ul>
+	<li ng-repeat="download in project.downloads">
+		{{download.price}} Download: <a ng-href="{{download.url}}">{{download.os}}</a>
+	</li>
+</ul>
+<section>
+	<h1>Credits</h1>
+	<ul>
+		<li ng-repeat="credit in project.credits">
+			<link-or-span url="credit.url">{{credit.name}}</link-or-span>
+			<span> - {{credit.role}}</span>
+		</li>
+	</ul>
+</section>
