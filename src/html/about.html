@@ -14,7 +14,7 @@
 		col-xl-2-6
 		col-xxl-3-6">
 	</div>
-	<aside class="
+	<aside class="contact
 		col-xs-0
 		col-sm-6-6
 		col-md-2-6
@@ -23,7 +23,8 @@
 		col-xxl-1-6">
 		<ul>
 			<li ng-repeat="link in contactLinks">
-				<a ng-href="{{link.url}}">{{link.title}}</a>
+				<a class="contact-link"
+					ng-href="{{link.url}}">{{link.title}}</a>
 			</li>
 		</ul>
 	</aside>

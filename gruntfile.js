@@ -4,16 +4,24 @@ module.exports = function(grunt){
         //config
         watch: {
             compass: {
-                files: ['src/sass/*.{scss,sass}'],
+                files: ['src/sass/**/*.{scss,sass}'],
                 tasks: ['compass:dev']
             },
             html: {
                 files: ['src/**/*.html'],
-                tasks: ['copy']
+                tasks: ['copy:html']
+            },
+            images: {
+                files: ['src/images/**/*'],
+                tasks: ['copy:images']
             },
             js: {
-                files: ['src/js/*.js'],
+                files: ['src/js/**/*.js'],
                 tasks: ['uglify']
+            },
+            json: {
+                files: ['src/json/**/*.json'],
+                tasks: ['copy:json']
             }
         },
         compass: {

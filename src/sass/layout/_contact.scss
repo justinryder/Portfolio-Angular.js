@@ -1,8 +1,8 @@
-.experience-summary {
-    margin: 1%;
+.contact {
+    @include pie-clearfix();
 }
 
-.experience-summary-title {
+.contact-link {
     display: block;
     margin: 1% auto;
     width: 90%;
